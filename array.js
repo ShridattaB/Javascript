@@ -55,6 +55,11 @@
 //     console.log(ten)
 // }
 
+let items=[250,645,300,900,50]
+for (let i=0;i<items.length;i++){
+    console.log(items[i])
+}
+
 
 
 
@@ -84,13 +89,13 @@
 //c Add Amezone at the end
 
 
-let companies=["Blooberg","Microsoft","Uber","Google","IBM","Netflix"]
-console.log(companies)
-companies.shift()
-console.log(companies)
+// let companies=["Blooberg","Microsoft","Uber","Google","IBM","Netflix"]
+// console.log(companies)
+// companies.shift()
+// console.log(companies)
 
-companies.splice(1,1,"OLA")
-console.log(companies)
+// companies.splice(1,1,"OLA")
+// console.log(companies)
 
- companies.push("Amezone")
-console.log(companies)
+//  companies.push("Amezone")
+// console.log(companies)
