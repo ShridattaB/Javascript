@@ -1,0 +1,172 @@
+[1mdiff --git a/DOM.js b/DOM.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..286946e[m
+[1m--- /dev/null[m
+[1m+++ b/DOM.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log("this isnew feature")[m
+\ No newline at end of file[m
+[1mdiff --git a/Questions/Q1.js b/Questions/Q1.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5be36cc[m
+[1m--- /dev/null[m
+[1m+++ b/Questions/Q1.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log("hello")[m
+\ No newline at end of file[m
+[1mdiff --git a/Questions/answer.html b/Questions/answer.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2c5cd90[m
+[1m--- /dev/null[m
+[1m+++ b/Questions/answer.html[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Document</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/array.js b/array.js[m
+[1mindex 7523feb..99b2631 100644[m
+[1m--- a/array.js[m
+[1m+++ b/array.js[m
+[36m@@ -55,6 +55,11 @@[m
+ //     console.log(ten)[m
+ // }[m
+ [m
+[32m+[m[32mlet items=[250,645,300,900,50][m
+[32m+[m[32mfor (let i=0;i<items.length;i++){[m
+[32m+[m[32m    console.log(items[i])[m
+[32m+[m[32m}[m
+[32m+[m
+ [m
+ [m
+ [m
+[36m@@ -84,13 +89,13 @@[m
+ //c Add Amezone at the end[m
+ [m
+ [m
+[31m-let companies=["Blooberg","Microsoft","Uber","Google","IBM","Netflix"][m
+[31m-console.log(companies)[m
+[31m-companies.shift()[m
+[31m-console.log(companies)[m
+[32m+[m[32m// let companies=["Blooberg","Microsoft","Uber","Google","IBM","Netflix"][m
+[32m+[m[32m// console.log(companies)[m
+[32m+[m[32m// companies.shift()[m
+[32m+[m[32m// console.log(companies)[m
+ [m
+[31m-companies.splice(1,1,"OLA")[m
+[31m-console.log(companies)[m
+[32m+[m[32m// companies.splice(1,1,"OLA")[m
+[32m+[m[32m// console.log(companies)[m
+ [m
+[31m- companies.push("Amezone")[m
+[31m-console.log(companies)[m
+[32m+[m[32m//  companies.push("Amezone")[m
+[32m+[m[32m// console.log(companies)[m
+[1mdiff --git a/function.js b/function.js[m
+[1mindex 320a338..55c8372 100644[m
+[1m--- a/function.js[m
+[1m+++ b/function.js[m
+[36m@@ -16,16 +16,16 @@[m
+ // }[m
+ [m
+ [m
+[31m-function countviowls(str){[m
+[31m-    let count=0[m
+[31m-    for(const char of str){[m
+[31m-       if (char ==="a" || char ==="e" ||char ==="i" ||char ==="o" ||char ==="u"){[m
+[31m-        count++;[m
+[31m-       }     [m
+[32m+[m[32m// function countviowls(str){[m
+[32m+[m[32m//     let count=0[m
+[32m+[m[32m//     for(const char of str){[m
+[32m+[m[32m//        if (char ==="a" || char ==="e" ||char ==="i" ||char ==="o" ||char ==="u"){[m
+[32m+[m[32m//         count++;[m
+[32m+[m[32m//        }[m[41m     [m
+ [m
+[31m-    }[m
+[31m-    console.log(count)[m
+[31m-}[m
+[32m+[m[32m//     }[m
+[32m+[m[32m//     console.log(count)[m
+[32m+[m[32m// }[m
+ [m
+ [m
+ // const  countarrow=str=>{[m
+[36m@@ -39,16 +39,19 @@[m [mfunction countviowls(str){[m
+ //     console.log(count)[m
+ // }[m
+ [m
+[31m-function onebyone(str){[m
+[31m-    let count=0[m
+[31m-    for (let i of str){[m
+[31m-        if (i==="a"|| i==="b"){[m
+[31m-            count=count+1;[m
+[31m-        }[m
+[31m-    }[m
+[31m-    console.log(count)[m
+[31m-}[m
+[31m-onebyone("anilandar")[m
+[32m+[m[32m// function onebyone(str){[m
+[32m+[m[32m//     let count=0[m
+[32m+[m[32m//     for (let i of str){[m
+[32m+[m[32m//         if (i==="a"|| i==="b"){[m
+[32m+[m[32m//             count=count+1;[m
+[32m+[m[32m//         }[m
+[32m+[m[32m//     }[m
+[32m+[m[32m//     console.log(count)[m
+[32m+[m[32m// }[m
+[32m+[m[32m// onebyone("anilandar")[m
+[41m+[m
+[41m+[m
+[41m+[m
+ [m
+ [m
+ [m
+[1mdiff --git a/index2.html b/index2.html[m
+[1mindex 990a09f..d57aabf 100644[m
+[1m--- a/index2.html[m
+[1m+++ b/index2.html[m
+[36m@@ -6,6 +6,6 @@[m
+     <title>Document</title>[m
+ </head>[m
+ <body>[m
+[31m-    <script src="second.js"></script>[m
+[32m+[m[32m    <script src="practice.js"></script>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/methods.js b/methods.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..70f9a62[m
+[1m--- /dev/null[m
+[1m+++ b/methods.js[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m//reduce method[m
+[32m+[m[32mlet arr=[2,3,4,5,6];[m
+[32m+[m[32mlet output=arr.reduce((prev,cur) =>{[m
+[32m+[m[32m    return prev < cur ? prev : cur;[m
+[32m+[m[32m}[m
+[32m+[m[32m)[m
+[32m+[m[32mconsole.log(output)[m
+[32m+[m
+[32m+[m
+[1mdiff --git a/practice.js b/practice.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1ff0abf[m
+[1m--- /dev/null[m
+[1m+++ b/practice.js[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32mstr="anil"[m
+[32m+[m[32mconsole.log(str.toUpperCase())[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
