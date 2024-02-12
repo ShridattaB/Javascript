@@ -16,16 +16,16 @@
 // }
 
 
-function countviowls(str){
-    let count=0
-    for(const char of str){
-       if (char ==="a" || char ==="e" ||char ==="i" ||char ==="o" ||char ==="u"){
-        count++;
-       }     
+// function countviowls(str){
+//     let count=0
+//     for(const char of str){
+//        if (char ==="a" || char ==="e" ||char ==="i" ||char ==="o" ||char ==="u"){
+//         count++;
+//        }     
 
-    }
-    console.log(count)
-}
+//     }
+//     console.log(count)
+// }
 
 
 // const  countarrow=str=>{
@@ -39,16 +39,19 @@ function countviowls(str){
 //     console.log(count)
 // }
 
-function onebyone(str){
-    let count=0
-    for (let i of str){
-        if (i==="a"|| i==="b"){
-            count=count+1;
-        }
-    }
-    console.log(count)
-}
-onebyone("anilandar")
+// function onebyone(str){
+//     let count=0
+//     for (let i of str){
+//         if (i==="a"|| i==="b"){
+//             count=count+1;
+//         }
+//     }
+//     console.log(count)
+// }
+// onebyone("anilandar")
+
+
+
 
 
 
